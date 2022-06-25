@@ -7,15 +7,21 @@
 
     @media screen and (min-width: 768px) and (max-width: 1199px) {
         margin-bottom: 18px;
+
+        font-size: 26px;
     }
 
     @media screen and (min-width: 1200px) {
         margin-bottom: 16px;
+
+        font-size: 30px;
+        line-height: 1.13;
     }
 
     text-transform: uppercase;
     font-size: 18px;
     line-height: 1.15;
+
 
     // color: $text-decoration-color;
     color: aqua;
@@ -26,10 +32,15 @@
 
     @media screen and (min-width: 768px) and (max-width: 1199px) {
         margin-bottom: 158px;
+        // Font size: 48px Line height: 55px
+        font-size: 48px;
     }
 
     @media screen and (min-width: 1200px) {
         margin-bottom: 261px;
+        // Font size: 58px Line height: 66px
+        font-size: 58px;
+        line-height: 1.14;
     }
 
     text-transform: uppercase;
@@ -164,6 +175,10 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
 
+    @media screen and (min-width: 1200px) {
+        font-size: 30px;
+        line-height: 1.13;
+    }
 }
 
 .products-list__title::after {
@@ -198,8 +213,15 @@
     line-height: 1.52;
     letter-spacing: 0.04em;
 
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        line-height: 1.76;
+    }
+
     @media screen and (min-width: 1200px) {
         margin-bottom: 60px;
+
+        font-size: 16px;
+        line-height: 1.76;
     }
 }
 
