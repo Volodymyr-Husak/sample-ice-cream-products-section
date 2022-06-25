@@ -1321,12 +1321,6 @@ picture {
   position: relative;
 }
 
-@media screen and (max-width: 767px) {
-  .products-list__item {
-    margin-bottom: 140px;
-  }
-}
-
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .products-list__item {
     width: calc((100% - 2 * 16px) / 3);
@@ -1336,6 +1330,12 @@ picture {
 @media screen and (min-width: 1200px) {
   .products-list__item {
     width: calc((100% - 2 * 32px) / 3);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .products-list__item:not(:last-child) {
+    margin-bottom: 140px;
   }
 }
 
