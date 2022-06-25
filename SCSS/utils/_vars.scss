@@ -1,0 +1,35 @@
+/* ======================= */
+/*        VARIABLES*/
+/* ======================= */
+:root {
+    /* main */
+    --main-color: #757575;
+    --white-color: #ffffff;
+    --blue-color: #2196F3;
+    --black-color: #000000;
+    --title-color: #212121;
+    --grey-cl-icons: #AFB1B8;
+    --background-black-color: #2F303A;
+    --bg-grey-cl: #C4C4C4;
+    --link-contact-footer: rgba(255, 255, 255, 0.6);
+    --bg-cl-footer-icons: rgba(255, 255, 255, 0.1);
+    --bg-cl-hero-btn-hover: #188CE8;
+    --brd-bot-header: #ECECEC;
+    --bg-work-description: rgba(47, 48, 58, 0.8);
+    --bg-portfolio-description: rgba(33, 150, 243, 0.9);
+    --bg-backdrop: rgba(0, 0, 0, 0.2);
+    --border-col-form: rgba(33, 33, 33, 0.2);
+    --placeholder-color: rgba(117, 117, 117, 0.5);
+
+    /* portfolio */
+    --background-color-portfolio-btn: #F5F4FA;
+    --brd-cl-portfolio-fig: #EEEEEE;
+    /* Змінна часу */
+    --fast-time: 250ms;
+    /* Змінна cubic-bezier */
+    --easy-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+    /* Шрифти */
+    // $mainFontFamily: Roboto,
+    // sans-serif;
+    --main-font-family: Roboto, sans-serif;
+}
