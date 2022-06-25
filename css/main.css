@@ -1270,6 +1270,12 @@ picture {
   color: aqua;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .products__text {
+    margin-bottom: 18px;
+  }
+}
+
 .products__title {
   margin-bottom: 148px;
   text-transform: uppercase;
@@ -1277,6 +1283,12 @@ picture {
   line-height: 1.15;
   letter-spacing: 0.04em;
   color: red;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .products__title {
+    margin-bottom: 158px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1289,7 +1301,24 @@ picture {
 
 .products-list__item {
   position: relative;
-  margin-bottom: 140px;
+}
+
+@media screen and (max-width: 767px) {
+  .products-list__item {
+    margin-bottom: 140px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .products-list__item {
+    width: calc((100% - 2 * 16px) / 3);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .products-list__item:not(:last-child) {
+    margin-right: 16px;
+  }
 }
 
 .products-list__container {
@@ -1303,6 +1332,12 @@ picture {
   color: white;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .products-list__container {
+    padding: 118px 32px 40px 32px;
+  }
+}
+
 .products-list__item::after {
   content: url(../images/products/products-1_sm.png);
   position: absolute;
@@ -1313,12 +1348,30 @@ picture {
   background-repeat: no-repeat;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .products-list__item::after {
+    content: url(../images/products/products-1_md.png);
+  }
+}
+
 .products-list__item:nth-child(2)::after {
   content: url(../images/products/products-2_sm.png);
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .products-list__item:nth-child(2)::after {
+    content: url(../images/products/products-2_md.png);
+  }
+}
+
 .products-list__item:last-child::after {
   content: url(../images/products/products-3_sm.png);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .products-list__item:last-child::after {
+    content: url(../images/products/products-3_md.png);
+  }
 }
 
 .products-list__title {
