@@ -1276,6 +1276,12 @@ picture {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .products__text {
+    margin-bottom: 16px;
+  }
+}
+
 .products__title {
   margin-bottom: 148px;
   text-transform: uppercase;
@@ -1291,7 +1297,13 @@ picture {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 1200px) {
+  .products__title {
+    margin-bottom: 261px;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .products-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1315,9 +1327,21 @@ picture {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .products-list__item {
+    width: calc((100% - 2 * 32px) / 3);
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .products-list__item:not(:last-child) {
     margin-right: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .products-list__item:not(:last-child) {
+    margin-right: 32px;
   }
 }
 
@@ -1338,6 +1362,12 @@ picture {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .products-list__container {
+    padding: 165px 64px 60px 64px;
+  }
+}
+
 .products-list__item::after {
   content: url(../images/products/products-1_sm.png);
   position: absolute;
@@ -1354,6 +1384,13 @@ picture {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .products-list__item::after {
+    content: url(../images/products/products-1_lg.png);
+    top: -261px;
+  }
+}
+
 .products-list__item:nth-child(2)::after {
   content: url(../images/products/products-2_sm.png);
 }
@@ -1364,6 +1401,12 @@ picture {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .products-list__item:nth-child(2)::after {
+    content: url(../images/products/products-2_lg.png);
+  }
+}
+
 .products-list__item:last-child::after {
   content: url(../images/products/products-3_sm.png);
 }
@@ -1371,6 +1414,12 @@ picture {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .products-list__item:last-child::after {
     content: url(../images/products/products-3_md.png);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .products-list__item:last-child::after {
+    content: url(../images/products/products-3_lg.png);
   }
 }
 
@@ -1403,6 +1452,12 @@ picture {
   letter-spacing: 0.04em;
 }
 
+@media screen and (min-width: 1200px) {
+  .products-list__text {
+    margin-bottom: 60px;
+  }
+}
+
 .products-list__btn {
   border-radius: 50%;
   width: 40px;
@@ -1413,6 +1468,7 @@ picture {
 }
 
 .products-list__text-hidden {
+  display: none;
   -webkit-transform: translateX(-1000px);
           transform: translateX(-1000px);
   position: absolute;
